@@ -1,0 +1,76 @@
+﻿@using Microsoft.AspNetCore.Mvc
+
+@model TourAgencyApp.Models.Tour
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details about '@Html.DisplayFor(model => model.Title)'</h2>
+<hr />
+
+<section>
+    <div class="row">
+        <div class="col-md-6">
+            <dl class="row">
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Title)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Title)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.StartDate)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.StartDate)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.EndDate)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.EndDate)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Country)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Country)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Description)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Description)
+                </dd>
+                <dt class="col-sm-2">
+                    @Html.DisplayNameFor(model => model.Price)
+                </dt>
+                <dd class="col-sm-10">
+                    @Html.DisplayFor(model => model.Price)
+                </dd>
+            </dl>
+        </div>
+        <div class="col-md-6">
+            <center>
+                @if (Model.ImageName != null)
+                {
+                    <img src="@Url.Content("~/Images/Tours/" + Model.ImageName)" alt="@Model.ImageName" style="width:100%; max-width: 500px; height: auto; margin: 20px;" />
+                }
+            </center>
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <center>
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+                }
+                <a asp-action="Index">Back to List</a>
+            </center>
+        </div>
+    </div>
+</section>

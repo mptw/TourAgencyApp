@@ -1,0 +1,369 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TourAgencyApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TourAgencyApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\Images\\Events\\IguazuFallsHike.jpg",
+      "PackagePath": "staticwebassets\\Images\\Events\\IguazuFallsHike.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\Images\\Events\\RilaLakesHike.jpg",
+      "PackagePath": "staticwebassets\\Images\\Events\\RilaLakesHike.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\Images\\Events\\SantoriniSunsetCruise.jpg",
+      "PackagePath": "staticwebassets\\Images\\Events\\SantoriniSunsetCruise.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\Images\\Events\\TrolltungaHike.jpg",
+      "PackagePath": "staticwebassets\\Images\\Events\\TrolltungaHike.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\Images\\Events\\TuscanWineTasting.jpg",
+      "PackagePath": "staticwebassets\\Images\\Events\\TuscanWineTasting.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\Images\\Tours\\CostaRica.jpg",
+      "PackagePath": "staticwebassets\\Images\\Tours\\CostaRica.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\Images\\Tours\\Germany.jpg",
+      "PackagePath": "staticwebassets\\Images\\Tours\\Germany.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\Images\\Tours\\Greece.jpg",
+      "PackagePath": "staticwebassets\\Images\\Tours\\Greece.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\Images\\Tours\\Italy.jpg",
+      "PackagePath": "staticwebassets\\Images\\Tours\\Italy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\Images\\Tours\\Spain.jpg",
+      "PackagePath": "staticwebassets\\Images\\Tours\\Spain.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\Travel-and-Tours.jpg",
+      "PackagePath": "staticwebassets\\imgs\\Travel-and-Tours.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\admin.png",
+      "PackagePath": "staticwebassets\\imgs\\admin.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\banner.png",
+      "PackagePath": "staticwebassets\\imgs\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\delivery.png",
+      "PackagePath": "staticwebassets\\imgs\\delivery.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\even1t.png",
+      "PackagePath": "staticwebassets\\imgs\\even1t.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\event.png",
+      "PackagePath": "staticwebassets\\imgs\\event.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\flights.png",
+      "PackagePath": "staticwebassets\\imgs\\flights.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\hotels.png",
+      "PackagePath": "staticwebassets\\imgs\\hotels.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\office.png",
+      "PackagePath": "staticwebassets\\imgs\\office.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\searchTour.png",
+      "PackagePath": "staticwebassets\\imgs\\searchTour.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\tour-guide.png",
+      "PackagePath": "staticwebassets\\imgs\\tour-guide.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\tour-guide0.png",
+      "PackagePath": "staticwebassets\\imgs\\tour-guide0.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\tours.png",
+      "PackagePath": "staticwebassets\\imgs\\tours.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\tours0.png",
+      "PackagePath": "staticwebassets\\imgs\\tours0.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\traveler.png",
+      "PackagePath": "staticwebassets\\imgs\\traveler.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\imgs\\user.png",
+      "PackagePath": "staticwebassets\\imgs\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Marina\\vs\\TA-app\\TourAgencyApp\\TourAgencyApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TourAgencyApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TourAgencyApp.props",
+      "PackagePath": "build\\TourAgencyApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TourAgencyApp.props",
+      "PackagePath": "buildMultiTargeting\\TourAgencyApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TourAgencyApp.props",
+      "PackagePath": "buildTransitive\\TourAgencyApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

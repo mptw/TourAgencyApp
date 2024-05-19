@@ -1,0 +1,76 @@
+﻿@model IEnumerable<TourAgencyApp.Models.EventBooking>
+
+@{
+    ViewData["Title"] = "Booked events";
+}
+
+@if (User.IsInRole("Admin"))
+{
+    <h1>All booked events:</h1>
+}
+else
+{
+    <h1>Your booked events:</h1>
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Event.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Event.EventDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Event.Destination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Event.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Event.Price)
+            </th>
+            @if (User.IsInRole("Admin"))
+            {
+                <th>
+                    @Html.DisplayNameFor(model => model.UserId)
+                </th>
+            }
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Event.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Event.EventDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Event.Destination)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Event.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Event.Price)
+                </td>
+                @if (User.IsInRole("Admin"))
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.UserId)
+                    </td>
+                }
+                else @if (User.Identity.IsAuthenticated)
+                {
+                    <td>
+                        <a asp-action="Dropout" asp-route-id="@item.Id">Drop out</a>
+                    </td>
+                }
+            </tr>
+}
+    </tbody>
+</table>
