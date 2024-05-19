@@ -52,6 +52,8 @@ namespace TourAgency.Controllers
             }
 
             var tour = await _context.Tour
+                .Include(t => t.Comments)
+                .ThenInclude(c => c.User)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (tour == null)
             {
@@ -59,6 +61,63 @@ namespace TourAgency.Controllers
             }
 
             return View(tour);
+        }
+
+        // GET: Tours/CreateComment/5
+        public async Task<IActionResult> CreateComment(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var tour = await _context.Tour
+                .Include(t => t.Comments)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (tour == null)
+            {
+                return NotFound();
+            }
+
+            return View(tour);
+        }
+
+        // POST: Tours/CreateComment/5
+        [HttpPost, ActionName("CreateComment")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateCommentPost(int id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var tour = await _context.Tour
+                .Include(t => t.Comments)
+                .FirstOrDefaultAsync(m => m.Id == id);
+            if (tour == null)
+            {
+                return NotFound();
+            }
+
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+            var comment = new Comment
+            {
+                Text = Request.Form["text"],
+                CreatedDate = DateTime.Now,
+                UserId = userId,
+                User = await _context.Users.FirstOrDefaultAsync(u => u.Id == userId),
+                TourId = id,
+                Tour = tour
+            };
+
+            _context.Comment.Add(comment);
+            _context.SaveChanges();
+
+            tour.Comments.Add(comment);
+            _context.SaveChanges();
+            return RedirectToAction("Details", new { id = id });
         }
 
         [Authorize(Roles = "Admin")]

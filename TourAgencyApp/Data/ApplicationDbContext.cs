@@ -15,6 +15,7 @@ namespace TourAgencyApp.Data
         public DbSet<TourAgencyApp.Models.Event> Event { get; set; } = default!;
         public DbSet<TourAgencyApp.Models.TourBooking> TourBooking { get; set; } = default!;
         public DbSet<TourAgencyApp.Models.EventBooking> EventBooking { get; set; } = default!;
+        public DbSet<TourAgencyApp.Models.Comment> Comment { get; set; } = default!;
 
     }
 }

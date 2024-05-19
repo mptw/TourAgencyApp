@@ -22,4 +22,6 @@ public class Tour
     [Required]
     public decimal Price { get; set; }
     public string? ImageName { get; set; }
+
+    public List<Comment> Comments { get; set; }
 }

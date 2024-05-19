@@ -60,17 +60,46 @@
             </center>
         </div>
     </div>
-    </div>
 
     <div class="row">
+        <center>
+            @if (User.IsInRole("Admin"))
+            {
+                <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+            }
+            <a asp-action="Index">Back to List</a>
+        </center>
+    </div>
+</section>
+
+<section>
+    <div class="row row-no-gutters">
         <div class="col-md-6">
-            <center>
-                @if (User.IsInRole("Admin"))
+                <h2>Comments</h2>
+                <ul>
+                    @foreach (var comment in Model.Comments)
+                    {
+                        <li>
+                            @comment.Text
+                            <p>@comment.CreatedDate</p>
+                            @if (comment.User != null)
+                            {
+                                <p>by @comment.User.Email</p>
+                            }
+                            else
+                            {
+                                <p>by Unknown User</p>
+                            }
+                        </li>
+                    }
+                </ul>
+                @if (User.Identity.IsAuthenticated)
                 {
-                    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a>
+                    <form asp-controller="Tours" asp-action="CreateComment" asp-route-id="@Model.Id">
+                        <input type="text" name="text" placeholder="Leave a comment" />
+                        <input type="submit" value="Add Comment" />
+                    </form>
                 }
-                <a asp-action="Index">Back to List</a>
-            </center>
         </div>
     </div>
 </section>
