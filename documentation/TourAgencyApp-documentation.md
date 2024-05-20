@@ -1,11 +1,18 @@
 # Tour Agency App website
 
 Direct links:
+- [Project description](#project-description) </br>
 - [Pages on the website](#pages) </br>
 - [Permissions to view pages](#permissions-to-view-pages) </br>
 - [Database](#database) </br>
+- [External Resources](#external-resources) </br>
 
 ---
+
+## Project description
+
+The website is for a tour agency that offers guided tours and events to users. The website allows users to browse and book tours or events, and view detailed information about each tour or event, including its title, description, price, and dates. 
+Users can also leave comments and reviews about the tours. Additionally, users can create bookings for the tours or events they're interested in, and the website will manage the booking process and store relevant information such as booking dates and user IDs.
 
 ## Pages
 
@@ -271,4 +278,10 @@ It has attributes:
 - Id (int, primary key): a unique identifier for the booking.
 - EventId (int, foreign key): the ID of the event being booked.
 - UserId (nvarchar(450), foreign key): the ID of the user who made the booking.
+
+
+## External Resources
+
+For the identity in the website (as well as authentication) I've used the build in Entity Models from AspNet.
+![dependencies](img/dependencies.png "dependencies")</br>
 
