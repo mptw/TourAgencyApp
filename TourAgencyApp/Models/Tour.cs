@@ -23,5 +23,5 @@ public class Tour
     public decimal Price { get; set; }
     public string? ImageName { get; set; }
 
-    public List<Comment> Comments { get; set; }
+    public List<Comment>? Comments { get; set; }
 }

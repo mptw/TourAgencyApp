@@ -1,6 +1,9 @@
-﻿using System.Security.Claims;
+﻿using System.Drawing.Printing;
+using System.Linq;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.EntityFrameworkCore;
 using TourAgencyApp.Data;
 using TourAgencyApp.Models;
@@ -17,7 +20,7 @@ namespace TourAgency.Controllers
         }
 
         // GET: Tours
-        public async Task<IActionResult> Index(string title, string country, string errorMessage)
+        public async Task<IActionResult> Index(string title, string country, string errorMessage, string filter = "")
         {
             if (_context.Tour == null)
             {
@@ -29,11 +32,26 @@ namespace TourAgency.Controllers
 
             if (!String.IsNullOrEmpty(title))
             {
+                TempData["Title"] = title;
                 tours = tours.Where(s => s.Title!.Contains(title));
             }
             if (!String.IsNullOrEmpty(country))
             {
+                TempData["Country"] = country;
                 tours = tours.Where(s => s.Country!.Contains(country));
+            }
+
+            if (!string.IsNullOrEmpty(filter))
+            {
+                switch (filter.ToLower())
+                {
+                    case "upcoming":
+                        tours = tours.Where(tb => tb.StartDate >= DateTime.Now);
+                        break;
+                    case "past":
+                        tours = tours.Where(tb => tb.StartDate < DateTime.Now);
+                        break;
+                }
             }
 
             if (errorMessage != null)
@@ -135,6 +153,18 @@ namespace TourAgency.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Title,StartDate,EndDate,Country,Description,Price")] Tour tour, IFormFile file)
         {
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState
+                .Where(x => x.Value.Errors.Any())
+                .Select(x => new KeyValuePair<string, string>(x.Key, x.Value.Errors.Select(y => y.ErrorMessage).FirstOrDefault()));
+
+                // Print the errors
+                foreach (var error in errors)
+                {
+                    Console.WriteLine(error.Key + ": " + error.Value);
+                }
+            }
             if (ModelState.IsValid)
             {
                 if (tour.EndDate <= tour.StartDate)

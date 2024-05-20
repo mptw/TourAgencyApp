@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
+﻿using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TourAgencyApp.Data;
-using TourAgencyApp.Models;
 
 namespace TourAgencyApp.Controllers
 {
@@ -23,7 +17,7 @@ namespace TourAgencyApp.Controllers
 
         [Authorize(Policy = "authenticated")]
         // GET: TourBookings
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string filter = "")
         {
             var tourBookings = from m in _context.TourBooking
                                select m;
@@ -42,6 +36,20 @@ namespace TourAgencyApp.Controllers
                     item.Tour = foundTour;
                 }
             }
+
+            if (!string.IsNullOrEmpty(filter))
+            {
+                switch (filter.ToLower())
+                {
+                    case "upcoming":
+                        tourBookings = tourBookings.Where(tb => tb.Tour.StartDate >= DateTime.Now);
+                        break;
+                    case "past":
+                        tourBookings = tourBookings.Where(tb => tb.Tour.StartDate < DateTime.Now);
+                        break;
+                }
+            }
+
             return View(await tourBookings.ToListAsync());
         }
 

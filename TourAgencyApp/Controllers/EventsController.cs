@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Claims;
-using System.Threading.Tasks;
+﻿using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TourAgencyApp.Data;
 using TourAgencyApp.Models;
@@ -22,7 +17,7 @@ namespace TourAgencyApp.Controllers
         }
 
         // GET: Events
-        public async Task<IActionResult> Index(string title, string destination, string errorMessage)
+        public async Task<IActionResult> Index(string title, string destination, string errorMessage, string filter = "")
         {
             if (_context.Event == null)
             {
@@ -34,11 +29,26 @@ namespace TourAgencyApp.Controllers
 
             if (!String.IsNullOrEmpty(title))
             {
+                TempData["Title"] = title;
                 events = events.Where(s => s.Title!.Contains(title));
             }
             if (!String.IsNullOrEmpty(destination))
             {
+                TempData["Destination"] = destination;
                 events = events.Where(s => s.Destination!.Contains(destination));
+            }
+
+            if (!string.IsNullOrEmpty(filter))
+            {
+                switch (filter.ToLower())
+                {
+                    case "upcoming":
+                        events = events.Where(tb => tb.EventDate >= DateTime.Now);
+                        break;
+                    case "past":
+                        events = events.Where(tb => tb.EventDate < DateTime.Now);
+                        break;
+                }
             }
 
             if (errorMessage != null)

@@ -13,6 +13,11 @@ else
     <h1>Your booked events:</h1>
 }
 
+<form asp-action="Index">
+    <button class="btn btn-primary" type="submit" name="filter" value="upcoming">Upcoming events</button>
+    <button class="btn btn-primary" type="submit" name="filter" value="past">Past events</button>
+</form>
+
 <table class="table">
     <thead>
         <tr>

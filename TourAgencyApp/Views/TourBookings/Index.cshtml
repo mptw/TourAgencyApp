@@ -13,6 +13,11 @@ else
     <h1>Your booked tours:</h1>
 }
 
+<form asp-action="Index">
+    <button class="btn btn-primary" type="submit" name="filter" value="upcoming">Upcoming tours</button>
+    <button class="btn btn-primary" type="submit" name="filter" value="past">Past tours</button>
+</form>
+
 <table class="table">
     <thead>
         <tr>

@@ -18,9 +18,11 @@
 
 <form asp-controller="Tours" asp-action="Index" method="get">
     <p>
-        Title: <input type="text" name="title" />
-        Country: <input type="text" name="country" />
+        Title: <input type="text" name="title" value="@TempData["Title"]" />
+        Country: <input type="text" name="country" value="@TempData["Country"]" />
         <input type="submit" value="Filter" />
+        <button class="btn btn-primary" type="submit" name="filter" value="upcoming">Upcoming tours</button>
+        <button class="btn btn-primary" type="submit" name="filter" value="past">Past tours</button>
     </p>
 </form>
 
